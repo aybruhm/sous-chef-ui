@@ -1,47 +1,43 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+	import Prompt from "./components/Prompt.svelte";
 </script>
 
 <main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
+	<h1>Sous Chef AI Assistant 🧑🏾‍🍳</h1>
 
-  <div class="card">
-    <Counter />
-  </div>
+	<div class="card">
+		<Prompt />
+	</div>
 
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
+	<p>
+		Read article <a
+			href="https://github.com/sveltejs/kit#readme"
+			target="_blank"
+			class="referrer-link"
+			rel="noreferrer">here</a
+		>, on getting started!
+	</p>
+	<button>
+		<a
+			class="github-button"
+			href="https://github.com/aybruhm/sous-chef-ui"
+			data-color-scheme="no-preference: light; light: light; dark: dark;"
+			data-icon="octicon-star"
+			data-size="large"
+			aria-label="Star aybruhm/sous-chef-ui on GitHub"
+		>
+			Star on Github ⭐
+		</a>
+	</button>
 </main>
 
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
+	.github-button {
+		color: #f1f1f1;
+	}
+	.referrer-link {
+		text-decoration: underline;
+		color: #f1f1f1;
+		font-style: italic;
+	}
 </style>
