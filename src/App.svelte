@@ -11,7 +11,7 @@
 
 	<p>
 		Read article <a
-			href="https://github.com/sveltejs/kit#readme"
+			href="https://hackernoon.com/preview/Cg0nRK9N2Nsj4Tl2YMEx"
 			target="_blank"
 			class="referrer-link"
 			rel="noreferrer">here</a
