@@ -22,9 +22,6 @@
 			class="github-button"
 			href="https://github.com/aybruhm/sous-chef-ui"
 			data-color-scheme="no-preference: light; light: light; dark: dark;"
-			data-icon="octicon-star"
-			data-size="large"
-			aria-label="Star aybruhm/sous-chef-ui on GitHub"
 		>
 			Star on Github ⭐
 		</a>
