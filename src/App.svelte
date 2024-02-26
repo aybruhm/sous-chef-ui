@@ -11,7 +11,7 @@
 
 	<p>
 		Read article <a
-			href="https://hackernoon.com/preview/Cg0nRK9N2Nsj4Tl2YMEx"
+			href="https://hackernoon.com/your-ai-powered-kitchen-assistant-building-a-recipe-genius-with-gpt35-turbo-and-agenta"
 			target="_blank"
 			class="referrer-link"
 			rel="noreferrer">here</a
