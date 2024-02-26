@@ -5,10 +5,6 @@ ghpages.publish(
 	{
 		branch: "gh-pages",
 		repo: "https://github.com/aybruhm/sous-chef-ui.git",
-		user: {
-			name: "Abram",
-			email: "me@abram.tech",
-		},
 	},
 	() => {
 		console.log("Deploy Complete!");
