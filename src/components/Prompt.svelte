@@ -14,7 +14,7 @@
 				inputs: [
 					{
 						role: "user",
-						content: userInput,
+						content: input,
 					},
 				],
 				environment: "production",
